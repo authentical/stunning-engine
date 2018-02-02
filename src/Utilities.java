@@ -42,7 +42,7 @@ public class Utilities {
                 sb.append(string[i]);
             }
         }
-
+        System.out.println(string[string.length -1]);
         sb.append(string[string.length-1]);
 
         return sb.toString();
